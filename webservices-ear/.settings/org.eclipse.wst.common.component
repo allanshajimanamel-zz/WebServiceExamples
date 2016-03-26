@@ -61,8 +61,8 @@
         <dependent-module archiveName="objenesis-2.1.jar" deploy-path="/lib" handle="module:/classpath/var/M2_REPO/org/objenesis/objenesis/2.1/objenesis-2.1.jar">
             <dependency-type>uses</dependency-type>
         </dependent-module>
-        <property name="context-root" value="com.webservices-ear"/>
-        <property name="java-output-path" value="/com.webservices-ear/target/classes"/>
+        <property name="context-root" value="webservices-ear"/>
+        <property name="java-output-path" value="/webservices-ear/target/classes"/>
         <property name="component.exclusion.patterns" value="**/application.xml"/>
     </wb-module>
 </project-modules>
