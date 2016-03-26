@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<application xmlns="http://java.sun.com/xml/ns/javaee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://java.sun.com/xml/ns/javaee http://java.sun.com/xml/ns/javaee/application_6.xsd" version="6">
+  <display-name>webservices-ear</display-name>
+  <module>
+    <web>
+      <web-uri>webservices-soap-0.0.1-SNAPSHOT.war</web-uri>
+      <context-root>/webservices-soap</context-root>
+    </web>
+  </module>
+  <module>
+    <web>
+      <web-uri>webservices-rest-0.0.1-SNAPSHOT.war</web-uri>
+      <context-root>/webservices-rest</context-root>
+    </web>
+  </module>
+  <module>
+    <ejb>webservices-api-0.0.1-SNAPSHOT.jar</ejb>
+  </module>
+  <module>
+    <ejb>webservices-server-0.0.1-SNAPSHOT.jar</ejb>
+  </module>
+  <library-directory>lib</library-directory>
+</application>
