@@ -17,7 +17,7 @@ import com.webservices.to.PersonTO;
 public class PersonServiceImpl implements PersonService {
 
 	/**
-	 * Adds a professor to DB.
+	 * Adds a person to DB.
 	 *
 	 * @param p
 	 *            instance of {@link PersonTO} to save.
