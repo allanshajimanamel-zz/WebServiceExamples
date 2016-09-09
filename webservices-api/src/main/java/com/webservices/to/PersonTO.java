@@ -30,6 +30,25 @@ public class PersonTO implements Serializable {
 	private Long id;
 
 	/**
+	 * @param name
+	 * @param age
+	 * @param id
+	 */
+	public PersonTO(String name, int age, Long id) {
+		super();
+		this.name = name;
+		this.age = age;
+		this.id = id;
+	}
+
+	/**
+	 * Constructor
+	 */
+	public PersonTO() {
+		super();
+	}
+
+	/**
 	 * @return the name
 	 */
 	public String getName() {
