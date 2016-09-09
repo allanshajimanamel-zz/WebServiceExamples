@@ -26,11 +26,6 @@
 		<param-value>true</param-value>
 	</context-param>
 	
-	<!-- <context-param>
-		<param-name>javax.ws.rs.Application</param-name>
-		<param-value>com.webservices.restservice.ApplicationConfiguration</param-value>
-	</context-param> -->
-	
 	<context-param>
 		<param-name>resteasy.servlet.mapping.prefix</param-name>
 		<param-value>/rs</param-value>
